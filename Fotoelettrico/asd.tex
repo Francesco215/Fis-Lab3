@@ -1,17 +1,164 @@
-\documentclass{article}
+\documentclass[10pt,a4paper]{article}
+\usepackage{verbatim}
+\usepackage{subcaption}
+\usepackage{karnaugh-map}
+\usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
-\usepackage[T1]{fontenc}
-\usepackage{graphicx}
-\usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
-\usepackage{amsthm}
-\usepackage{hyperref}
-\usepackage{caption}
-%\usepackage{tikz}
-\date{13 Marzo 2019}
-\author{Gruppo 1G.BT \\Lorenzo Cavuoti, Francesco Sacco}
-\title{Caratteristiche porte logiche e semplici circuiti logici}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\newcommand{\rem}[1]{[\emph{#1}]}
+\newcommand{\exn}{\phantom{xxx}}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}}  %% use 1.a numbering
 
+\author{Gruppo EB.24 \\Giovanni Sucameli, Davide Incalza, Francesco Sacco}
+\title{Effetto fotoelettrico - Misura del rapporto $\frac{h}{e}$}
 \begin{document}
-\input{tabelle/completi577nm.tex}
+\date{25 Marzo 2019}
+\maketitle
+\section*{Scopo dell'esperienza e cenni teorici}
+Obiettivo di questa esperienza è la verifica dell'effetto fotoelettrico e dell'ipotesi di Einstein (1905) e successivamente verificata da Einstein, secondo cui un'onda elettromagnetica è costituita da quanti di luce, detti fotoni, ciascuno dei quali porta un energia 
+
+\begin{equation}
+ E_{\gamma} = h\nu
+\label{energia}
+\end{equation}
+
+dove h è la costante di Planck e $ \nu $ la frequenza dell'onda. Affinchè un elettrone venga estratto dal metallo è necessario che assorba un fotone di energia superiore al lavoro $ W_{0}$ di estrazione dal metallo ( $ W_{0} $)  varia da metallo a metallo). Dunque l'energia cinetica del fotoelettrone è data da
+\begin{equation}
+    E_{e} = hv - W_{0}
+\label{foto}
+\end{equation}
+Da quest'ultima equazione ricaveremo poi anche una stima del rapporto $ \frac{h}{e} $
+Notiamo infine che, secondo l'ipotesi di Einstein, l'intensità della corrente formata dai fotoelettroni è proporzionale al numero di fotoni (con energia tale da estrarre l'elettrone dal metallo) incidenti sul metallo nell'unità di tempo.
+
+\section*{Materiale occorrente}
+
+\begin{itemize}
+\item una lampada a led
+\item una fotocella Leybold 55877 
+\item filtri interferenziali (Newport)
+\item scatola metallica
+\item generatore di tensione continua
+\item un multimetro digitale
+\item un picoamperometro digitale
+\end{itemize}
+
+\section*{Esperimento di Millikan}
+Robert Millikan (che già nel 1909 aveva misurato la carica elementare) tra il 1914 ed il 1916 effettuò misure per verificare l'ipotesi di Einstein. L'idea di Millikan è quella di far incidere della luce di frequenza $\nu$ (che può essere variata) su un bulbo di vetro su cui era stato depositato a vuoto un catodo alcalino. La corrente dovuta ai fotoelettroni poteva essere misurata mediante un mllliamperometro chiuso su un generatore di tensione continua in grado di generare una d.d.p. continua tra il catodo e l'anodo; la polarità è tale da generare nel bulbo un campo elettrico opposto al flusso dei fotoelettroni verso l'anodo, in modo di diminuire la corrente nel circuito. Regolando la tensione V fino ad un valore $V_{0}$ tale da annulare la corrente, si ottiene una stima dell'energia cinetica massima dei fotolettroni da mettere in relazione alla frequenza della luce (per verificare la linearità della relazione energia-frequenza (equazione \ref{foto}), e ottenere una stima del rapporto $\frac{h}{e}$ ). 
+%\newline \newline
+\section*{Apparato sperimentale}
+Per la verifica dell'equazione (\ref{foto}) abbiamo utilizzato un metodo simile a quello usato da Millikan. L'apparato sperimentale è composto da :
+
+\begin{itemize}
+\item una fotocella Leybold 55877
+\item una lampada a led usata come sorgente di luce con uno spettro quasi continuo
+\item un set di filtri interferenziali con cui variare la frequenza dell'onda incidente sul catodo (i valori delle lunghezze d'onda centrali e delle bande passanti sono in Tab.\ref{tab:filtri} )
+\item un generatore di tensione continua (da banco) per variare la tensione di bias tra catodo e anodo
+\item un voltmetro digitale per misurare la tensione di bias all'uscita del generatore
+\item un picoamperometro per misurare la corrente dei fotoelettroni
+\end{itemize}
+
+\begin{table}[h]
+\caption{\small Lunghezza d'onda centrali, rispettive frequenze con incertezze di banda associate e colore della luce in uscita per i filtri utilizzati. }
+\label{tab:filtri}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+colore & $\lambda$ (nm) & FWHM (nm) & $\nu (10^{14} $ Hz ) & d$\nu$   \\
+\hline 
+azzurro & 450.9 & 9.6 & & \\
+\hline
+verde-azzurro & 499.05 & 11.10 & &\\
+\hline
+verde & 546.03  & 11.68 & &\\
+\hline
+giallo & 577  &  10 & & \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{circuito_equivalente.png}
+\caption{\small Schema elettrico equivalente per la misura dell'energia cinetica dei fotoni. }
+\label{fig:cireq}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\linewidth]{schema_banco.png}
+\caption{\small Schema del banco ottico. }
+\label{fig:schemabanco}
+\end{center}
+\end{figure}
+
+\newpage
+\section*{Analisi Dati}
+\begin{minipage}{.6\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{450nm.eps}
+		\captionof{figure}{Circuito usato nel punto 1}
+		\label{fig:circuito-1}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\input{450nm.tex}
+		\label{tab:124}
+\end{minipage}\newline\newline
+\begin{minipage}{.6\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{499nm.eps}
+		\captionof{figure}{Circuito usato nel punto 1}
+		\label{fig:circuito-1}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\input{499nm.tex}
+		\label{tab:124}
+\end{minipage}\newline\newline
+\begin{minipage}{.6\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{545nm.eps}
+		\captionof{figure}{Circuito usato nel punto 1}
+		\label{fig:circuito-1}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\input{545nm.tex}
+		\label{tab:124}
+\end{minipage}\newline\newline
+\newline
+\begin{minipage}{.6\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{577nm.eps}
+		\captionof{figure}{Circuito usato nel punto 1}
+		\label{fig:circuito-1}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\input{577nm.tex}
+		\label{tab:124}
+\end{minipage}\newline\newline
+\newline
+\section*{Appendice: Dati}
+\noindent
+Di seguito: i dati sperimentali V/I per ciascuna frequenza incidente.\\
+\paragraph{Luce a 450nm:}
+\input{completi450nm.tex}
+
+\paragraph{Luce a 499nm:}
+\input{completi499nm.tex}
+
+\paragraph{Luce a 545nm:}
+\input{completi545nm.tex}
+
+\paragraph{Luce a 577nm:}
+\input{completi577nm.tex}
+
+
+\section*{Dichiarazione}
+\input{450nm.tex}
+I firmatari di questa relazione dichiarano che il contenuto della relazione \`e originale, con misure effettuate dai membri del gruppo, e che tutti i firmatari hanno contribuito alla elaborazione della relazione stessa.
+
 \end{document}
