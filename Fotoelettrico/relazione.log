@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.13)  26 MAR 2019 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.13)  26 MAR 2019 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**asd.tex
-(./asd.tex
+**relazione.tex
+(./relazione.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -719,8 +719,33 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen262
 \Gm@dimlist=\toks36
 )
-(./asd.aux)
-\openout1 = `asd.aux'.
+(./relazione.aux
+
+LaTeX Warning: Label `fig:circuito-1' multiply defined.
+
+
+LaTeX Warning: Label `tab:124' multiply defined.
+
+
+LaTeX Warning: Label `fig:circuito-1' multiply defined.
+
+
+LaTeX Warning: Label `tab:124' multiply defined.
+
+
+LaTeX Warning: Label `fig:circuito-1' multiply defined.
+
+
+LaTeX Warning: Label `tab:124' multiply defined.
+
+
+LaTeX Warning: Label `fig:circuito-1' multiply defined.
+
+
+LaTeX Warning: Label `tab:124' multiply defined.
+
+)
+\openout1 = `relazione.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -863,250 +888,250 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
-
-
-LaTeX Warning: Reference `foto' on page 1 undefined on input line 50.
-
-
-LaTeX Warning: Reference `foto' on page 1 undefined on input line 53.
-
-[1
+ [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `tab:filtri' on page 2 undefined on input line 58.
-
-
-LaTeX Warning: File `circuito_equivalente.png' not found on input line 86.
-
-
-! Package pdftex.def Error: File `circuito_equivalente.png' not found: using dr
-aft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...h=0.5\linewidth]{circuito_equivalente.png}
-                                                  
-? 
-
-LaTeX Warning: File `schema_banco.png' not found on input line 94.
-
-
-! Package pdftex.def Error: File `schema_banco.png' not found: using draft sett
-ing.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 ...ics[width=0.5\linewidth]{schema_banco.png}
-                                                  
-? 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2]
-
-LaTeX Warning: File `450nm.eps' not found on input line 104.
-
-Package epstopdf Info: Source file: <450nm.eps>
-(epstopdf)             Output file: <450nm-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=450nm-eps-converted-to.pdf
- 450nm.eps>
+<immagini/circuito_equivalente.png, id=18, 584.93532pt x 435.12563pt>
+File: immagini/circuito_equivalente.png Graphic file (type png)
+<use immagini/circuito_equivalente.png>
+Package pdftex.def Info: immagini/circuito_equivalente.png  used on input line 
+86.
+(pdftex.def)             Requested size: 241.84843pt x 179.90982pt.
+<immagini/schema_banco.png, id=19, 523.9575pt x 155.07938pt>
+File: immagini/schema_banco.png Graphic file (type png)
+<use immagini/schema_banco.png>
+Package pdftex.def Info: immagini/schema_banco.png  used on input line 94.
+(pdftex.def)             Requested size: 241.84843pt x 71.5811pt.
+ [2 <./immagini/circuito_equivalente.png> <./immagini/schema_banco.png>]
+Package epstopdf Info: Source file: <immagini/450nm.eps>
+(epstopdf)                    date: 2019-03-26 22:02:33
+(epstopdf)                    size: 34341 bytes
+(epstopdf)             Output file: <immagini/450nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 21:58:07
+(epstopdf)                    size: 19096 bytes
+(epstopdf)             Command: <repstopdf --outfile=immagini/450nm-eps-convert
+ed-to.pdf immagini/450nm.eps>
 (epstopdf)             \includegraphics on input line 104.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=immagini/450nm-eps-converted-to.pdf immagini/450n
+m.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `450nm-eps-converted-to.pdf' not found: using 
-draft setting.
+Package epstopdf Info: Result file: <immagini/450nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 22:02:57
+(epstopdf)                    size: 19096 bytes.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.104 ...ludegraphics[width=\linewidth]{450nm.eps}
-                                                  
-? 
 
-! LaTeX Error: File `450nm.tex' not found.
+pdfTeX warning: pdflatex (file ./immagini/450nm-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<immagini/450nm-eps-converted-to.pdf, id=24, 433.62pt x 289.08pt>
+File: immagini/450nm-eps-converted-to.pdf Graphic file (type pdf)
+<use immagini/450nm-eps-converted-to.pdf>
+Package pdftex.def Info: immagini/450nm-eps-converted-to.pdf  used on input lin
+e 104.
+(pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
+(./tabelle/450nm.tex)
+Overfull \hbox (1.0384pt too wide) in paragraph at lines 1--111
+[][]
+ []
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-LaTeX Warning: File `499nm.eps' not found on input line 114.
-
-Package epstopdf Info: Source file: <499nm.eps>
-(epstopdf)             Output file: <499nm-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=499nm-eps-converted-to.pdf
- 499nm.eps>
+Package epstopdf Info: Source file: <immagini/499nm.eps>
+(epstopdf)                    date: 2019-03-26 22:02:34
+(epstopdf)                    size: 38906 bytes
+(epstopdf)             Output file: <immagini/499nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 21:58:07
+(epstopdf)                    size: 22711 bytes
+(epstopdf)             Command: <repstopdf --outfile=immagini/499nm-eps-convert
+ed-to.pdf immagini/499nm.eps>
 (epstopdf)             \includegraphics on input line 114.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=immagini/499nm-eps-converted-to.pdf immagini/499n
+m.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `499nm-eps-converted-to.pdf' not found: using 
-draft setting.
+Package epstopdf Info: Result file: <immagini/499nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 22:02:58
+(epstopdf)                    size: 22711 bytes.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ...ludegraphics[width=\linewidth]{499nm.eps}
-                                                  
-? 
 
-! LaTeX Error: File `499nm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-LaTeX Warning: File `545nm.eps' not found on input line 124.
-
-Package epstopdf Info: Source file: <545nm.eps>
-(epstopdf)             Output file: <545nm-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=545nm-eps-converted-to.pdf
- 545nm.eps>
+pdfTeX warning: pdflatex (file ./immagini/499nm-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<immagini/499nm-eps-converted-to.pdf, id=25, 433.62pt x 289.08pt>
+File: immagini/499nm-eps-converted-to.pdf Graphic file (type pdf)
+<use immagini/499nm-eps-converted-to.pdf>
+Package pdftex.def Info: immagini/499nm-eps-converted-to.pdf  used on input lin
+e 114.
+(pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
+(./tabelle/499nm.tex)
+Package epstopdf Info: Source file: <immagini/545nm.eps>
+(epstopdf)                    date: 2019-03-26 22:02:34
+(epstopdf)                    size: 38661 bytes
+(epstopdf)             Output file: <immagini/545nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 21:58:08
+(epstopdf)                    size: 20634 bytes
+(epstopdf)             Command: <repstopdf --outfile=immagini/545nm-eps-convert
+ed-to.pdf immagini/545nm.eps>
 (epstopdf)             \includegraphics on input line 124.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=immagini/545nm-eps-converted-to.pdf immagini/545n
+m.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `545nm-eps-converted-to.pdf' not found: using 
-draft setting.
+Package epstopdf Info: Result file: <immagini/545nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 22:02:59
+(epstopdf)                    size: 20634 bytes.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.124 ...ludegraphics[width=\linewidth]{545nm.eps}
-                                                  
-? 
 
-! LaTeX Error: File `545nm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-LaTeX Warning: File `577nm.eps' not found on input line 135.
-
-Package epstopdf Info: Source file: <577nm.eps>
-(epstopdf)             Output file: <577nm-eps-converted-to.pdf>
-(epstopdf)             Command: <repstopdf --outfile=577nm-eps-converted-to.pdf
- 577nm.eps>
+pdfTeX warning: pdflatex (file ./immagini/545nm-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<immagini/545nm-eps-converted-to.pdf, id=26, 433.62pt x 289.08pt>
+File: immagini/545nm-eps-converted-to.pdf Graphic file (type pdf)
+<use immagini/545nm-eps-converted-to.pdf>
+Package pdftex.def Info: immagini/545nm-eps-converted-to.pdf  used on input lin
+e 124.
+(pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
+(./tabelle/545nm.tex)
+Package epstopdf Info: Source file: <immagini/577nm.eps>
+(epstopdf)                    date: 2019-03-26 22:02:34
+(epstopdf)                    size: 39850 bytes
+(epstopdf)             Output file: <immagini/577nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 21:58:09
+(epstopdf)                    size: 21697 bytes
+(epstopdf)             Command: <repstopdf --outfile=immagini/577nm-eps-convert
+ed-to.pdf immagini/577nm.eps>
 (epstopdf)             \includegraphics on input line 135.
-Package epstopdf Info: Output file is already uptodate.
+runsystem(repstopdf --outfile=immagini/577nm-eps-converted-to.pdf immagini/577n
+m.eps)...executed safely (allowed).
 
-! Package pdftex.def Error: File `577nm-eps-converted-to.pdf' not found: using 
-draft setting.
+Package epstopdf Info: Result file: <immagini/577nm-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 22:03:00
+(epstopdf)                    size: 21697 bytes.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...ludegraphics[width=\linewidth]{577nm.eps}
-                                                  
-? 
 
-! LaTeX Error: File `577nm.tex' not found.
+pdfTeX warning: pdflatex (file ./immagini/577nm-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.7>, but at most version <1.5> allowed
+<immagini/577nm-eps-converted-to.pdf, id=27, 433.62pt x 289.08pt>
+File: immagini/577nm-eps-converted-to.pdf Graphic file (type pdf)
+<use immagini/577nm-eps-converted-to.pdf>
+Package pdftex.def Info: immagini/577nm-eps-converted-to.pdf  used on input lin
+e 135.
+(pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
+(./tabelle/577nm.tex)
+Overfull \hbox (1.0384pt too wide) in paragraph at lines 1--142
+[][]
+ []
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+Package epstopdf Info: Source file: <immagini/fit.eps>
+(epstopdf)                    date: 2019-03-26 22:02:35
+(epstopdf)                    size: 19965 bytes
+(epstopdf)             Output file: <immagini/fit-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 21:58:09
+(epstopdf)                    size: 11928 bytes
+(epstopdf)             Command: <repstopdf --outfile=immagini/fit-eps-converted
+-to.pdf immagini/fit.eps>
+(epstopdf)             \includegraphics on input line 146.
+runsystem(repstopdf --outfile=immagini/fit-eps-converted-to.pdf immagini/fit.ep
+s)...executed safely (allowed).
 
-Enter file name: 
+Package epstopdf Info: Result file: <immagini/fit-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-26 22:03:00
+(epstopdf)                    size: 11928 bytes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
+
+pdfTeX warning: pdflatex (file ./immagini/fit-eps-converted-to.pdf): PDF inclus
+ion: found PDF version <1.7>, but at most version <1.5> allowed
+<immagini/fit-eps-converted-to.pdf, id=28, 433.62pt x 289.08pt>
+File: immagini/fit-eps-converted-to.pdf Graphic file (type pdf)
+<use immagini/fit-eps-converted-to.pdf>
+Package pdftex.def Info: immagini/fit-eps-converted-to.pdf  used on input line 
+146.
+(pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
+(./tabelle/e_su_h.tex)
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
+$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--144
-
- []
-
-[3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
+[]$ $[]$ 
  []
 
 
-! LaTeX Error: File `completi450nm.tex' not found.
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-! LaTeX Error: File `completi499nm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-! LaTeX Error: File `completi545nm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-! LaTeX Error: File `completi577nm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-! LaTeX Error: File `450nm.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[5] (./asd.aux)
-
-LaTeX Warning: There were undefined references.
+ []
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--155
+
+ []
+
+[3 <./immagini/450nm-eps-converted-to.pdf> <./immagini/499nm-eps-converted-to.p
+df> <./immagini/545nm-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
+(./tabelle/completi450nm.tex) (./tabelle/completi499nm.tex) [4 <./immagini/577n
+m-eps-converted-to.pdf> <./immagini/fit-eps-converted-to.pdf>]
+(./tabelle/completi545nm.tex) (./tabelle/completi577nm.tex) [5] [6]
+(./relazione.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23455 strings out of 492649
- 463666 string characters out of 6129622
- 499190 words of memory out of 5000000
- 27006 multiletter control sequences out of 15000+600000
- 539542 words of font info for 59 fonts, out of 8000000 for 9000
+ 23493 strings out of 492649
+ 465170 string characters out of 6129622
+ 508198 words of memory out of 5000000
+ 27024 multiletter control sequences out of 15000+600000
+ 539374 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,56p,10382b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,56p,10388b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1118,11 +1143,11 @@ cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
 l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
 exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
 ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on asd.pdf (5 pages, 138795 bytes).
+ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on relazione.pdf (6 pages, 516881 bytes).
 PDF statistics:
- 71 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 252 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
