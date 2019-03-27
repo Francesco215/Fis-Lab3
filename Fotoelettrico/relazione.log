@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.13)  26 MAR 2019 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.3.13)  27 MAR 2019 15:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,32 +719,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen262
 \Gm@dimlist=\toks36
 )
-(./relazione.aux
-
-LaTeX Warning: Label `fig:circuito-1' multiply defined.
-
-
-LaTeX Warning: Label `tab:124' multiply defined.
-
-
-LaTeX Warning: Label `fig:circuito-1' multiply defined.
-
-
-LaTeX Warning: Label `tab:124' multiply defined.
-
-
-LaTeX Warning: Label `fig:circuito-1' multiply defined.
-
-
-LaTeX Warning: Label `tab:124' multiply defined.
-
-
-LaTeX Warning: Label `fig:circuito-1' multiply defined.
-
-
-LaTeX Warning: Label `tab:124' multiply defined.
-
-)
+(./relazione.aux)
 \openout1 = `relazione.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -881,13 +856,13 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -895,29 +870,40 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 File: immagini/circuito_equivalente.png Graphic file (type png)
 <use immagini/circuito_equivalente.png>
 Package pdftex.def Info: immagini/circuito_equivalente.png  used on input line 
-86.
+97.
 (pdftex.def)             Requested size: 241.84843pt x 179.90982pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <immagini/schema_banco.png, id=19, 523.9575pt x 155.07938pt>
 File: immagini/schema_banco.png Graphic file (type png)
 <use immagini/schema_banco.png>
-Package pdftex.def Info: immagini/schema_banco.png  used on input line 94.
+Package pdftex.def Info: immagini/schema_banco.png  used on input line 105.
 (pdftex.def)             Requested size: 241.84843pt x 71.5811pt.
- [2 <./immagini/circuito_equivalente.png> <./immagini/schema_banco.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
+
+ []
+
 Package epstopdf Info: Source file: <immagini/450nm.eps>
-(epstopdf)                    date: 2019-03-26 22:02:33
-(epstopdf)                    size: 34341 bytes
+(epstopdf)                    date: 2019-03-27 15:38:00
+(epstopdf)                    size: 33415 bytes
 (epstopdf)             Output file: <immagini/450nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 21:58:07
-(epstopdf)                    size: 19096 bytes
+(epstopdf)                    date: 2019-03-27 15:38:17
+(epstopdf)                    size: 18016 bytes
 (epstopdf)             Command: <repstopdf --outfile=immagini/450nm-eps-convert
 ed-to.pdf immagini/450nm.eps>
-(epstopdf)             \includegraphics on input line 104.
-runsystem(repstopdf --outfile=immagini/450nm-eps-converted-to.pdf immagini/450n
-m.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <immagini/450nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 22:02:57
-(epstopdf)                    size: 19096 bytes.
+(epstopdf)             \includegraphics on input line 123.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./immagini/450nm-eps-converted-to.pdf): PDF incl
@@ -926,28 +912,38 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 File: immagini/450nm-eps-converted-to.pdf Graphic file (type pdf)
 <use immagini/450nm-eps-converted-to.pdf>
 Package pdftex.def Info: immagini/450nm-eps-converted-to.pdf  used on input lin
-e 104.
+e 123.
 (pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
 (./tabelle/450nm.tex)
-Overfull \hbox (1.0384pt too wide) in paragraph at lines 1--111
+Overfull \hbox (1.0384pt too wide) in paragraph at lines 1--130
 [][]
  []
 
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 121--131
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--131
+
+ []
+
 Package epstopdf Info: Source file: <immagini/499nm.eps>
-(epstopdf)                    date: 2019-03-26 22:02:34
-(epstopdf)                    size: 38906 bytes
+(epstopdf)                    date: 2019-03-27 15:38:00
+(epstopdf)                    size: 39147 bytes
 (epstopdf)             Output file: <immagini/499nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 21:58:07
-(epstopdf)                    size: 22711 bytes
+(epstopdf)                    date: 2019-03-27 15:38:18
+(epstopdf)                    size: 22718 bytes
 (epstopdf)             Command: <repstopdf --outfile=immagini/499nm-eps-convert
 ed-to.pdf immagini/499nm.eps>
-(epstopdf)             \includegraphics on input line 114.
-runsystem(repstopdf --outfile=immagini/499nm-eps-converted-to.pdf immagini/499n
-m.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <immagini/499nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 22:02:58
-(epstopdf)                    size: 22711 bytes.
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./immagini/499nm-eps-converted-to.pdf): PDF incl
@@ -956,198 +952,232 @@ usion: found PDF version <1.7>, but at most version <1.5> allowed
 File: immagini/499nm-eps-converted-to.pdf Graphic file (type pdf)
 <use immagini/499nm-eps-converted-to.pdf>
 Package pdftex.def Info: immagini/499nm-eps-converted-to.pdf  used on input lin
-e 114.
+e 137.
 (pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
 (./tabelle/499nm.tex)
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 135--145
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--145
+
+ []
+
+[3 <./immagini/circuito_equivalente.png> <./immagini/schema_banco.png> <./immag
+ini/450nm-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <immagini/545nm.eps>
-(epstopdf)                    date: 2019-03-26 22:02:34
-(epstopdf)                    size: 38661 bytes
+(epstopdf)                    date: 2019-03-27 15:38:00
+(epstopdf)                    size: 39231 bytes
 (epstopdf)             Output file: <immagini/545nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 21:58:08
-(epstopdf)                    size: 20634 bytes
+(epstopdf)                    date: 2019-03-27 15:38:19
+(epstopdf)                    size: 20707 bytes
 (epstopdf)             Command: <repstopdf --outfile=immagini/545nm-eps-convert
 ed-to.pdf immagini/545nm.eps>
-(epstopdf)             \includegraphics on input line 124.
-runsystem(repstopdf --outfile=immagini/545nm-eps-converted-to.pdf immagini/545n
-m.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <immagini/545nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 22:02:59
-(epstopdf)                    size: 20634 bytes.
+(epstopdf)             \includegraphics on input line 148.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./immagini/545nm-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<immagini/545nm-eps-converted-to.pdf, id=26, 433.62pt x 289.08pt>
+<immagini/545nm-eps-converted-to.pdf, id=63, 433.62pt x 289.08pt>
 File: immagini/545nm-eps-converted-to.pdf Graphic file (type pdf)
 <use immagini/545nm-eps-converted-to.pdf>
 Package pdftex.def Info: immagini/545nm-eps-converted-to.pdf  used on input lin
-e 124.
+e 148.
 (pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
 (./tabelle/545nm.tex)
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 146--157
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--157
+
+ []
+
 Package epstopdf Info: Source file: <immagini/577nm.eps>
-(epstopdf)                    date: 2019-03-26 22:02:34
-(epstopdf)                    size: 39850 bytes
+(epstopdf)                    date: 2019-03-27 15:38:01
+(epstopdf)                    size: 39162 bytes
 (epstopdf)             Output file: <immagini/577nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 21:58:09
-(epstopdf)                    size: 21697 bytes
+(epstopdf)                    date: 2019-03-27 15:38:19
+(epstopdf)                    size: 20940 bytes
 (epstopdf)             Command: <repstopdf --outfile=immagini/577nm-eps-convert
 ed-to.pdf immagini/577nm.eps>
-(epstopdf)             \includegraphics on input line 135.
-runsystem(repstopdf --outfile=immagini/577nm-eps-converted-to.pdf immagini/577n
-m.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <immagini/577nm-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 22:03:00
-(epstopdf)                    size: 21697 bytes.
+(epstopdf)             \includegraphics on input line 160.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./immagini/577nm-eps-converted-to.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<immagini/577nm-eps-converted-to.pdf, id=27, 433.62pt x 289.08pt>
+<immagini/577nm-eps-converted-to.pdf, id=64, 433.62pt x 289.08pt>
 File: immagini/577nm-eps-converted-to.pdf Graphic file (type pdf)
 <use immagini/577nm-eps-converted-to.pdf>
 Package pdftex.def Info: immagini/577nm-eps-converted-to.pdf  used on input lin
-e 135.
+e 160.
 (pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
 (./tabelle/577nm.tex)
-Overfull \hbox (1.0384pt too wide) in paragraph at lines 1--142
+Overfull \hbox (1.0384pt too wide) in paragraph at lines 1--167
 [][]
  []
 
+
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 158--169
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--169
+
+ []
+
+[4 <./immagini/499nm-eps-converted-to.pdf> <./immagini/545nm-eps-converted-to.p
+df>]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
 Package epstopdf Info: Source file: <immagini/fit.eps>
-(epstopdf)                    date: 2019-03-26 22:02:35
+(epstopdf)                    date: 2019-03-27 15:19:55
 (epstopdf)                    size: 19965 bytes
 (epstopdf)             Output file: <immagini/fit-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 21:58:09
+(epstopdf)                    date: 2019-03-27 15:20:13
 (epstopdf)                    size: 11928 bytes
 (epstopdf)             Command: <repstopdf --outfile=immagini/fit-eps-converted
 -to.pdf immagini/fit.eps>
-(epstopdf)             \includegraphics on input line 146.
-runsystem(repstopdf --outfile=immagini/fit-eps-converted-to.pdf immagini/fit.ep
-s)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <immagini/fit-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-26 22:03:00
-(epstopdf)                    size: 11928 bytes.
+(epstopdf)             \includegraphics on input line 174.
+Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex (file ./immagini/fit-eps-converted-to.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<immagini/fit-eps-converted-to.pdf, id=28, 433.62pt x 289.08pt>
+<immagini/fit-eps-converted-to.pdf, id=139, 433.62pt x 289.08pt>
 File: immagini/fit-eps-converted-to.pdf Graphic file (type pdf)
 <use immagini/fit-eps-converted-to.pdf>
 Package pdftex.def Info: immagini/fit-eps-converted-to.pdf  used on input line 
-146.
+174.
 (pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
 (./tabelle/e_su_h.tex)
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
-$[]$ $[]$ 
+Overfull \hbox (12.2537pt too wide) in paragraph at lines 1--181
+[][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
-
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 172--183
+[]$[]$ $[]$ 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
-[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
+Underfull \hbox (badness 10000) in paragraph at lines 172--183
 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
-[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
+Underfull \hbox (badness 10000) in paragraph at lines 172--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
+Underfull \hbox (badness 10000) in paragraph at lines 172--183
+
+ []
+
+Package epstopdf Info: Source file: <immagini/fit1.eps>
+(epstopdf)                    date: 2019-03-26 21:34:06
+(epstopdf)                    size: 19957 bytes
+(epstopdf)             Output file: <immagini/fit1-eps-converted-to.pdf>
+(epstopdf)                    date: 2019-03-27 15:30:25
+(epstopdf)                    size: 11908 bytes
+(epstopdf)             Command: <repstopdf --outfile=immagini/fit1-eps-converte
+d-to.pdf immagini/fit1.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./immagini/fit1-eps-converted-to.pdf): PDF inclu
+sion: found PDF version <1.7>, but at most version <1.5> allowed
+<immagini/fit1-eps-converted-to.pdf, id=140, 433.62pt x 289.08pt>
+File: immagini/fit1-eps-converted-to.pdf Graphic file (type pdf)
+<use immagini/fit1-eps-converted-to.pdf>
+Package pdftex.def Info: immagini/fit1-eps-converted-to.pdf  used on input line
+ 190.
+(pdftex.def)             Requested size: 290.22107pt x 193.4885pt.
+(./tabelle/e_su_h1.tex)
+Overfull \hbox (17.2222pt too wide) in paragraph at lines 188--198
+[]$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
 
  []
 
 
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
-[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
+Underfull \hbox (badness 10000) in paragraph at lines 188--198
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
-
- []
-
-
-Overfull \hbox (2.2222pt too wide) in paragraph at lines 102--155
-[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
+[5 <./immagini/577nm-eps-converted-to.pdf> <./immagini/fit-eps-converted-to.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--155
-
- []
-
-[3 <./immagini/450nm-eps-converted-to.pdf> <./immagini/499nm-eps-converted-to.p
-df> <./immagini/545nm-eps-converted-to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
-
- []
-
-(./tabelle/completi450nm.tex) (./tabelle/completi499nm.tex) [4 <./immagini/577n
-m-eps-converted-to.pdf> <./immagini/fit-eps-converted-to.pdf>]
-(./tabelle/completi545nm.tex) (./tabelle/completi577nm.tex) [5] [6]
-(./relazione.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./tabelle/completi450nm.tex) (./tabelle/completi499nm.tex) [6 <./immagini/fit1
+-eps-converted-to.pdf>] (./tabelle/completi545nm.tex)
+(./tabelle/completi577nm.tex) [7] [8] (./relazione.aux) ) 
 Here is how much of TeX's memory you used:
- 23493 strings out of 492649
- 465170 string characters out of 6129622
- 508198 words of memory out of 5000000
- 27024 multiletter control sequences out of 15000+600000
+ 23512 strings out of 492649
+ 465497 string characters out of 6129622
+ 508234 words of memory out of 5000000
+ 27039 multiletter control sequences out of 15000+600000
  539374 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,10n,56p,10388b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
-cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/t
-exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on relazione.pdf (6 pages, 516881 bytes).
+</usr/local/texlive/20
+18/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/201
+8/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2018/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb>
+Output written on relazione.pdf (8 pages, 546633 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 292 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 

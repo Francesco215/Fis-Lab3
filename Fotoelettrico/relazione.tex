@@ -19,13 +19,12 @@
 \date{25 Marzo 2019}
 \maketitle
 \section*{Scopo dell'esperienza e cenni teorici}
-Obiettivo di questa esperienza è la verifica dell'effetto fotoelettrico e dell'ipotesi di Einstein (1905) e successivamente verificata da Einstein, secondo cui un'onda elettromagnetica è costituita da quanti di luce, detti fotoni, ciascuno dei quali porta un energia 
+Obiettivo di questa esperienza è la verifica dell'effetto fotoelettrico e dell'ipotesi di Einstein formulata nel 1905 e successivamente verificata da Millikan, secondo cui un'onda elettromagnetica è costituita da quanti di luce, detti fotoni, ciascuno dei quali porta un energia 
 
 \begin{equation}
- E_{\gamma} = h\nu
+E_{\gamma} = h\nu
 \label{energia}
 \end{equation}
-
 dove h è la costante di Planck e $ \nu $ la frequenza dell'onda. Affinchè un elettrone venga estratto dal metallo è necessario che assorba un fotone di energia superiore al lavoro $ W_{0}$ di estrazione dal metallo ( $ W_{0} $)  varia da metallo a metallo). Dunque l'energia cinetica del fotoelettrone è data da
 \begin{equation}
     E_{e} = hv - W_{0}
@@ -61,21 +60,33 @@ Per la verifica dell'equazione (\ref{foto}) abbiamo utilizzato un metodo simile 
 \item un picoamperometro per misurare la corrente dei fotoelettroni
 \end{itemize}
 
+
+Il circuito elettrico equivalente montato nel nostro apparato sperimentale è mostrato in Fig.\ref{fig:cireq}. L'apparato è messo dentro una scatola metallica al fine di schermarlo da eventuali rumori elettromagnetici (sia la luce stessa della stanza ad esempio, che il rumore elettrico ambientale). 
+Sulla scatola sono montati due connettori coassiali LEMO ( K e A) per realizzare le dovute connessioni al catodo e all'anodo.
+L'ottica del banco è invece composta da :
+
+\begin{itemize}
+\item una fenditura realizzata con diaframma circolare, posta immediatamente a valle della lampada che ha lo scopo di concentrare il raggio luminoso in modo che abbia dimensioni molto inferiori al raggio dell'anodo (composto da un anello di Platino)
+\item due lenti convergenti, con fuochi rispettivamente nel foro del diaframma e nel centro del fotocatodo; la loro funzione è rispettivamente quella di fare in modo che la luce che esce dal diaframma incida in modo normale sul filtro in modo da non variare la frequenza trasmessa e quella di mettere a fuoco al centro del catodo l'immagine del diaframma.
+\item un setto oscuro che separi la sorgente di luce dalla fotocella 
+\end{itemize}
+
+Lo schema del banco ottico è mostrato in Fig. \ref{fig:schemabanco}.
+
+%AGGIUNGERE QUALCOSA SUGLIO ERRORI SISTEMATICI ???????
+%FINIREFINIREFINIREFINIREFINIRE....
 \begin{table}[h]
 \caption{\small Lunghezza d'onda centrali, rispettive frequenze con incertezze di banda associate e colore della luce in uscita per i filtri utilizzati. }
 \label{tab:filtri}
 \begin{center}
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{c|cccc}
 \hline
-colore & $\lambda$ (nm) & FWHM (nm) & $\nu (10^{14} $ Hz ) & d$\nu$   \\
-\hline 
-azzurro & 450.9 & 9.6 & & \\
+colore & $\lambda$ (nm) & FWHM (nm) & $\nu (10^{14} $ Hz ) & d$\nu$   \\ 
 \hline
-verde-azzurro & 499.05 & 11.10 & &\\
-\hline
-verde & 546.03  & 11.68 & &\\
-\hline
-giallo & 577  &  10 & & \\
+azzurro & 450.9 & 9.6 & 6.6 & 0.1\\
+verde-azzurro & 499.05 & 11.10 & 6.0 & 0.1\\
+verde & 546.03  & 11.68 & 5.5 & 0.1\\
+giallo & 577  &  10 & 5.1 & 0.1 \\
 \hline
 \end{tabular}
 \end{center}
@@ -99,72 +110,105 @@ giallo & 577  &  10 & & \\
 
 \newpage
 \section*{Analisi Dati}
+%scrivere qualcosa su come fatto il fit ecc... qui
+Il fit è stato effettuato supponendo che la relazione tra la fotocorrente $I$ e il voltaggio ai capi del catodo e l'anodo $V$ è descritta dall'equazione $I=a(V_0-V)^2\theta(V_0-V)+bV+I_0$.\newline
+%grafico dei residui se li emttiamo andrebbero onormalizzati, ricorda che forti ha detto che metterle così nn hanno molto senso..chi2 scritto con 10^1 è troppo bello...
+Il grafico dei residui mostra gli errori efficaci $\sigma_{eff}=\sqrt{(\sigma I)^2+[(\sigma V) \frac{dI}{dV}]^2}$
+%\captionof{figure}....
+Sotto, rispettivamente nelle Fig. \ref{fig:450} - \ref{fig:577} e nelle rispettive tabelle sono mostrati, per ogni frequenza selezionata, i risultati dei fit per la stima di $V_{0}$, mentre in Fig. \ref{fig:fit} e Tab. \ref{tab:fit} è mostrato il risultato per il fit per la stima di $\frac{h}{e}$.    \newline \newline
+
+
 \begin{minipage}{.6\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{immagini/450nm.eps}
-		\captionof{figure}{Circuito usato nel punto 1}
-		\label{fig:circuito-1}
+		\captionof{figure}{Grafico di best fit e dei residui a sinistra, parametri ottimali di best fit e valore del $\chi^{2}$ a destra per il filtro con banda passante centrata attorno a 450nm.  }
+		\label{fig:450}
 	\end{minipage}
 	\begin{minipage}{.4\linewidth}
 		\input{tabelle/450nm.tex}
-		\label{tab:124}
+		\label{tab:450}
 \end{minipage}\newline\newline
+
+%RISOLVERE THIS PROBLEM......
+
+
 \begin{minipage}{.6\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{immagini/499nm.eps}
-		\captionof{figure}{Circuito usato nel punto 1}
-		\label{fig:circuito-1}
+		\captionof{figure}{Grafico di best fit e dei residui a sinistra, parametri ottimali di best fit e valore del $\chi^{2}$ a destra per il filtro con banda passante centrata attorno a 499nm.}
+		\label{fig:499}
 	\end{minipage}
 	\begin{minipage}{.4\linewidth}
 		\input{tabelle/499nm.tex}
-		\label{tab:124}
+		\label{tab:499}
 \end{minipage}\newline\newline
+
 \begin{minipage}{.6\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{immagini/545nm.eps}
-		\captionof{figure}{Circuito usato nel punto 1}
-		\label{fig:circuito-1}
+		\captionof{figure}{Grafico di best fit e dei residui a sinistra, parametri ottimali di best fit e valore del $\chi^{2}$ a destra per il filtro con banda passante centrata attorno a 545nm.}
+		\label{fig:545}
 	\end{minipage}
 	\begin{minipage}{.4\linewidth}
 		\input{tabelle/545nm.tex}
-		\label{tab:124}
+		\label{tab:545}
 \end{minipage}\newline\newline
 \newline
+
 \begin{minipage}{.6\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{immagini/577nm.eps}
-		\captionof{figure}{Circuito usato nel punto 1}
-		\label{fig:circuito-1}
+		\captionof{figure}{Grafico di best fit e dei residui a sinstra, parametri ottimali di best fit e valore del $\chi^{2}$ a destra per il filtro con banda passante centrata attorno a 577nm.}
+		\label{fig:577}
 	\end{minipage}
 	\begin{minipage}{.4\linewidth}
 		\input{tabelle/577nm.tex}
-		\label{tab:124}
+		\label{tab:577}
 \end{minipage}\newline\newline
 \newline
+
+Una volta ottenuti i valori di $V_0$ per ogni filtro abbiamo plottato la frequenza dei filtri $\nu$ sulla $y$ e i parametri ottimali di $V_0$ sulla $x$ e abbiamo fatto un fit lineare dell'equazione $\nu=\frac{eV_0}h-\frac {W_0}h$, i parametri ottimali sono mostrati accanto al grafico mostrato in figura \ref{fig:fit}.\newline  
+
 \begin{minipage}{.6\linewidth}
 		\centering
 		\includegraphics[width=\linewidth]{immagini/fit.eps}
-		\captionof{figure}{Circuito usato nel punto 1}
-		\label{fig:circuito-1}
+		\captionof{figure}{Plot del fit per la stima di $\frac eh$ a sinistra, parametri di best fit e $\chi^{2}$ a destra.}
+		\label{fig:fit}
 	\end{minipage}
 	\begin{minipage}{.4\linewidth}
 		\input{tabelle/e_su_h.tex}
-		\label{tab:124}
+		\label{tab:fit}
 \end{minipage}\newline\newline
 \newline
+
+Per ottenere $h/e$ basta propagare l'errore dell'inverso di $e/h$ che risulta essere $h/e=(3.4$ $\pm$ $0.2)\times 10^{-15} Vs$, purtroppo non è pienamente in accordo con il valore teorico che è $4.13\times 10^{-15}Vs$. L'ipotesi più valida che ci sia venuta in mente è che i filtri non erano perfettamente perpendicolari allo schermo, e che quindi la lunghezza d'onda passante abbia subito un errore sistematico.\newline
+Teniamo a sottolineare che questo non è l'unico modo che abbiamo usato per fare la stima di $h/e$, infatti anche stimando $V_0$ direttamente col multimetro quando il picoamperometro misurava una corrente nulla abbiamo ottenuto che $h/e=(3.4$ $\pm$ $0.2)\times 10^{-15}Vs$, che è lo stesso risultato ottenuto precedentemente. I punti sperimentali e il fit sono visibili nell'immagine qui sotto.\newline
+Inoltre abbiamo usato anche diversi metodi di fit, ma il risultato è rimasto pressocchè inalterato.
+
+\begin{minipage}{.6\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{immagini/fit1.eps}
+		\captionof{figure}{Plot del fit per la stima di $\frac eh$ a sinistra, parametri di best fit e $\chi^{2}$ a destra.}
+		\label{fig:fit1}
+	\end{minipage}
+	\begin{minipage}{.4\linewidth}
+		\input{tabelle/e_su_h1.tex}
+		\label{tab:fit1}
+\end{minipage}\newline\newline
+
 \section*{Appendice: Dati}
 \noindent
 Di seguito: i dati sperimentali V/I per ciascuna frequenza incidente.\\
-\paragraph{Luce a 450nm:}
+\paragraph{Luce a 450nm:\hspace{2.5cm}}
 \input{tabelle/completi450nm.tex}
 
-\paragraph{Luce a 499nm:}
+\paragraph{Luce a 499nm:\hspace{2.5cm}}
 \input{tabelle/completi499nm.tex}
 
-\paragraph{Luce a 545nm:}
+\paragraph{Luce a 545nm:\hspace{2.5cm}}
 \input{tabelle/completi545nm.tex}
 
-\paragraph{Luce a 577nm:}
+\paragraph{Luce a 577nm:\hspace{2.5cm}}
 \input{tabelle/completi577nm.tex}
 
 
