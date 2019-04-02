@@ -1,0 +1,47 @@
+#misura delle tensioni U_A alle quali compare nelle immediate vicinanze della griglia anodo rispettivamente la prima, seconda e terza #banda luminosa (prima misura effettuata), con tensioni tetrodo (?)
+23.0 - 23.5 
+40.5 - 40.5
+56.0/56.5 - 57.5  #gli intervalli si riferiscono a quando la banda risultava visibile fino a quando "scompariva" 
+
+#seconda misura effettuata, con tensioni tetrodo : U_E = 9.8 V, U_G = 4.4 V, U_F = 8.0 V
+23.5 - 24.5
+40.0 - 41.0
+56.0 - 58.0
+
+#valori in ordine di U_E di cui si sono acquisite forme d'onda e schreenshot oscilloscopio (nn abbiamo preso i valori delle altre #tensioni del tretodo....)
+9.7, 11.9, 0.03, 4.8
+
+#Valori di U_A per cui all'oscilloscopio si visualizzavano massimi e minimi con tensioni tetrodo: U_E = 9.8 V, U_G = 4.4 V, U_F = 8.0 V
+
+#MASSIMI
+1.92, 3.68, 5.72, 7.84
+#MINIMI
+2.72, 4.52, 6.52
+
+#Valori di U_A per cui all'oscilloscopio si visualizzavano massimi e minimi con tensioni tetrodo variando U_E, altre tensioni non #scritte
+
+#U_E = 7.1
+#MASSIMI
+1.92, 3.60, 5.60
+#MINIMI
+2.48, 4.24, 6.32(?)
+
+#U_E = 10.7
+#MASSIMI
+1.92, 3.68, 5.68, 7.84
+#MINIMI
+2.88, 4.64, 6.56
+
+#U_E = 6.5
+#MASSIMI
+1.92, 3.58, 5.76
+#MINIMI
+2.40, 4.08, 6.16 (?)
+
+#i punti interrogativi indicano misure effettuate in condizioni non buone (minimo no molto bene definito...)
+#perchè vediamo sempre al massimo tre minimi (?) CFR con articolo in inglese, stesse energie...
+
+
+
+
+
