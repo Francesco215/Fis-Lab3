@@ -39,7 +39,7 @@
 2.40, 4.08, 6.16 (?)
 
 #i punti interrogativi indicano misure effettuate in condizioni non buone (minimo no molto bene definito...)
-#perchè vediamo sempre al massimo tre minimi (?) CFR con articolo in inglese, stesse energie...
+#perchè vediamo sempre al massimo tre minimi (?) cfr con articolo in inglese, stesse energie...
 
 
 
