@@ -15,12 +15,13 @@ def distanzaMedia(immagine,media):
 
 f=open('dati/distanza_media.txt','w+')
 cm1=np.transpose(np.genfromtxt('dati/centro_di_massa.txt',unpack='True'))
-for i in range(5):
+for i in range(len(cm1)):
 	img=mpimg.imread('dati/fotogrammi/'+str(i)+'.jpg')[:,:,0]
 	d=distanzaMedia(img,cm1[i])
 	print(d,file=f)
 	print(i)
 	plt.imshow(img)
+	plt.axis('off')
 	plt.errorbar(cm1[i][1],cm1[i][0],yerr=d,xerr=d,color='purple')
 	plt.savefig('immagini/video/'+str(i)+'.png')
 	plt.close()
