@@ -1,3 +1,4 @@
+#misura centrale
 # 2.22 m \pm 0.05
 #misura in millimetri \pm 1mm
 37
