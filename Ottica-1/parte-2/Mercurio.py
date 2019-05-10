@@ -23,8 +23,10 @@ m = np.array([0,1]); dm = np.array([0,0])
 m1 = np.array([-0.15, 0, 1, 1.15])
 
 y = np.sin(rad_d); dy = np.abs(np.cos(rad_d)*drad_d)
-err = (0.02*lamb)/((y[1] - y[0])**2)
-print err
+
+err = (0.02*lamb)/((y[1] - y[0])**2)   #<----- IGNORA QUESTO ERRORE E' UN ERRORE MOLTO FAKE E DI TEST.
+print err #<----- IDEE SULLA STIMA DELL'ERRORE?
+
 #Bellurie inutili e fit ancora più inutile con due punti che dio cane però quelli avevamo quindi Ok.
 popt, pcov = curve_fit(f, m, y, sigma = dy, absolute_sigma = False)
 print "%g +- %g" % (popt, np.sqrt(pcov))
