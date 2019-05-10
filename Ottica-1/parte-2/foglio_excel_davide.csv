@@ -1,8 +1,21 @@
-PARTE 1,,,
-,,,
-CADMIO,Gradi,Minuti,Err
-Verde,297,50,0.5
-Rosso,299,4,0.5
-Verde Acqua,297,27,0.5
-Blu,297,20,0.5
-Viola,296,30,0.5
+DATI,Gradi,Minuti,Errore_B (min),Zero Mercurio,,,,
+Speculare,245,4,2.5,168.63 +- 0.02,,,,
+Riga viola,265,52.5,2.5,,,,,
+Verde-Azzurro,269,53,2.5,,,,,
+Verde Intenso,273,46.5,2.5,,,,,
+,,,,,,,,
+Errore di Banda,2.5 Minuti,,,,,,,
+Errore totale,2.55 min,,,,,,,
+,,,,,,,,
+IDROGENO,,,,,SODIO,Gradi,Minuti,Err
+Speculare,245,5,0.5,,Giallo,268,26,0.5
+Riga Viola 1,265,45.5,0.5,,Giallo,268,24,
+Riga Viola 2,265,56.5,0.5,,,,,
+Azzurra,269,32,0.5,,,,,
+ Verde 1,273,52,0.5,,,,,
+Verde 2,273,56.5,,,,,,
+ Rossa 1,278,43.5,,,,,,
+Rossa 2,281,30,,,,,,
+Viola 3,296,4,2.5,,,,,
+Viola 3,296,30.5,0.5,,,,,
+Azzurra,303,25,0.5,,,,,
