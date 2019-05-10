@@ -20,9 +20,9 @@ m1 = np.array([-0.15, 0, 1, 1.15])
 
 y = np.sin(rad_d); dy = np.abs(np.cos(rad_d)*drad_d)
 err = (0.02*lamb)/((y[1] - y[0])**2)
-print err
+print (err)
 popt, pcov = curve_fit(f, m, y, sigma = dy, absolute_sigma = True)
-print "%g +- %g" % (popt, np.sqrt(pcov))
+print ("%g +- %g" % (popt, np.sqrt(pcov)))
 plt.errorbar(m,y,dy,dm, linestyle='', color='red')
 plt.plot(m1, f(m1, *popt), color='blue')
 plt.xlabel(r'$m$')
